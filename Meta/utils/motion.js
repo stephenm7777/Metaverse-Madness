@@ -1,4 +1,5 @@
 export const navVariants = {
+  // hidden animation
   hidden: {
     opacity: 0,
     y: -50,
@@ -8,6 +9,7 @@ export const navVariants = {
       damping: 140,
     },
   },
+  // animation
   show: {
     opacity: 1,
     y: 0,
